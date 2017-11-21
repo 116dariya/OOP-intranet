@@ -32,26 +32,28 @@ public class Textbook {
      * @return 
      */
     public String getIsbn() {
-        return null;
+        return isbn;
     }
 
     /**
      * @param isbn 
      */
     public void setIsbn(String isbn) {
+        this.isbn = isbn;
     }
 
     /**
      * @return 
      */
     public String getTitle() {
-        return null;
+        return title;
     }
 
     /**
      * @param title 
      */
     public void setTitle(String title) {
+        this.title = title;
     }
 }
 
