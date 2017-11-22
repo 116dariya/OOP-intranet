@@ -19,13 +19,14 @@ public class Textbook {
      * @return 
      */
     public Vector<String> getAuthor() {
-        return null;
+        return Author;
     }
 
     /**
      * @param Author 
      */
-    public void setAuthor(Vector<String> Author) {
+    public void setAuthor(String Author) {
+        this.Author.add(Author);
     }
 
     /**
