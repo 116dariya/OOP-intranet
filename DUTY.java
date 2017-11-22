@@ -5,6 +5,6 @@ public enum Duty {
   RECTOR, DEAN,
   ASSISTANT, LECTURER,
   LABORATORY_ASSISTANT,
-  NO DUTIES,
+  NO_DUTIES,
 }
 
