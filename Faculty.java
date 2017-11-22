@@ -13,7 +13,9 @@ public class Faculty {
      */
     private Vector<Teacher> listOfTeachers;
     
-    private Vector<Stuednt> listOfStudents;
+    private Vector<Student> listOfStudents;
+    
+    private Vector<Specialty> listOfSpecialties;
     /**
      */
     private static Teacher dean;
