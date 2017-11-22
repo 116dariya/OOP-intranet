@@ -1,24 +1,10 @@
 import java.lang.*;
 /**
 */
-public class DUTY {
-/**
-*/
-private String rector = RECTOR;
-/**
-*/
-private String dean = DEAN;
-/**
-*/
-private String assistant = ASSISTANT;
-/**
-*/
-private String lecturer = LECTURER;
-/**
-*/
-private String labAssis = LABORATORY ASSISTANT;
-/**
-*/
-private String noDuty = NO DUTIES;
+public enum Duty {
+  RECTOR, DEAN,
+  ASSISTANT, LECTURER,
+  LABORATORY_ASSISTANT,
+  NO DUTIES,
 }
 
