@@ -3,7 +3,7 @@ import Date.time;
 
 /**
  */
-public enum DAYS {
+public enum Days {
     MONDAY, TUESDAY,
     WEDNESDAY, THURSDAY,
     FRIDAY, SATURDAY, SUNDAY
