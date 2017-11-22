@@ -1,118 +1,76 @@
-import java.lang.*;
-
-/**
- */
+import java.lang.*;     
 public abstract class Person {
-    /**
-     */
     private String name;
-
-    /**
-     */
     private String email;
-
-    /**
-     */
     private String surname;
-
-    /**
-     */
     private String phoneNumber;
-
-    /**
-     */
     private boolean isWorking;
-
-    /**
-     */
     private boolean isTeaching;
-
-    /**
-     */
+    
+    
     public void loginToIntranet() {
+    
     }
-
-    /**
-     */
+    
+    
     public void loginToOR() {
+    
     }
 
-    /**
-     * @return 
-     */
+   
     public boolean getIsTeaching() {
-        return false;
+        return isTeaching;
     }
 
-    /**
-     * @param isTeaching 
-     */
     public void setIsTeaching(boolean isTeaching) {
+        this.isTeaching = isTeaching;
     }
 
-    /**
-     * @return 
-     */
+   
     public boolean getIsWorking() {
-        return false;
+        return isWorking;
     }
 
-    /**
-     * @param isWorking 
-     */
     public void setIsWorking(boolean isWorking) {
+        this.isWorking; = isWorking;
     }
 
-    /**
-     * @return 
-     */
+
     public String getPhoneNumber() {
-        return null;
+        return phoneNumber;
     }
 
-    /**
-     * @param phoneNumber 
-     */
+ 
     public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
-    /**
-     * @return 
-     */
+    
     public String getSurname() {
-        return null;
+        return surname;
     }
 
-    /**
-     * @param surname 
-     */
+    
     public void setSurname(String surname) {
+        this.surname = surname;
     }
 
-    /**
-     * @return 
-     */
     public String getEmail() {
-        return null;
+        return getEmail;
     }
 
-    /**
-     * @param email 
-     */
+    
     public void setEmail(String email) {
+        this.email = email;
     }
 
-    /**
-     * @return 
-     */
+   
     public String getName() {
-        return null;
+        return name;
     }
-
-    /**
-     * @param name 
-     */
+    
     public void setName(String name) {
+        this.name = name;
     }
 }
 
