@@ -12,7 +12,8 @@ public class Faculty {
     /**
      */
     private Vector<Teacher> listOfTeachers;
-
+    
+    private Vector<Stuednt> listOfStudents;
     /**
      */
     private static Teacher dean;
@@ -27,33 +28,35 @@ public class Faculty {
      * @return 
      */
     public String getFacultyName() {
-        return null;
+        return facultyName;
     }
 
     /**
      * @param facultyName 
      */
     public void setFacultyName(String facultyName) {
+        this.facultyName = facultyName;
     }
 
     /**
      * @return 
      */
     public Staff getDean() {
-        return null;
+        return dean;
     }
 
     /**
      * @param dean 
      */
     public void setDean(Staff dean) {
+        this.dean = dean;
     }
 
     /**
      * @return 
      */
     public Collection getListOfTeachers() {
-        return null;
+        return listOfTeachers;
     }
 
     /**
