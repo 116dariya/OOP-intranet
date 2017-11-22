@@ -17,12 +17,13 @@ public class Student extends Person {
 
     /**
      */
-    private DEGREE LevelOfEducation;
+    private Degree LevelOfEducation;
 
-    /**
-     */
     private HashMap<Course, MarkAttendance> attestation;
-
+    
+    private int yearOfStudy;
+    
+    Specialty specialty;
     /**
      */
     private DATABASE Schedule;
